@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/common"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_inbox"
             android:icon="@drawable/ic_inbox"
@@ -22,6 +24,21 @@
             android:id="@+id/nav_inbox5"
             android:icon="@drawable/ic_inbox"
             android:title="Friends" />̥
+    </group>
+
+    <group android:id="@+id/share">
+        <item android:title="Comminicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_inbox6"
+                    android:icon="@drawable/ic_inbox"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_inbox7"
+                    android:icon="@drawable/ic_inbox"
+                    android:title="Help" />
+            </menu>
+        </item>
     </group>
 
 </menu>
