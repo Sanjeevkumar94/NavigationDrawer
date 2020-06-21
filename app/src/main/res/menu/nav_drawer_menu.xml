@@ -5,11 +5,11 @@
         android:id="@+id/common"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_inbox"
+            android:id="@+id/home"
             android:icon="@drawable/ic_inbox"
             android:title="Home" />
         <item
-            android:id="@+id/nav_inbox2"
+            android:id="@+id/chat"
             android:icon="@drawable/ic_inbox"
             android:title="Chat" />
         <item
